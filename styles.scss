@@ -1,0 +1,18 @@
+$app-bg-color: #f2f2f2;
+$title-color: blue;
+$description-color: gray;
+
+.app {
+  background-color: $app-bg-color;
+  padding: 50px;
+
+  .title {
+    color: $title-color;
+    font-size: 84px;
+  }
+
+  .description {
+    color: $description-color;
+    font-size: 36px;
+  }
+}
